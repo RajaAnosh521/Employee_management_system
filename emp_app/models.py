@@ -27,4 +27,4 @@ class Employee(models.Model):
     hire_date = models.DateField() 
 
     def __str__(self):
-        return self.first_name + " " + self.last_name + " " + str(self.phone)
+        return self.first_name + " " + self.last_name
