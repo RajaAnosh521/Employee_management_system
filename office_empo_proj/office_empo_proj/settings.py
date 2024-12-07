@@ -12,7 +12,10 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from environ import Env 
+
 import dj_database_url
+
+import os
 
 env = Env() 
 Env.read_env() 
@@ -86,9 +89,6 @@ WSGI_APPLICATION = 'office_empo_proj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-import dj_database_url
-
-import os
 
 DATABASES = {
     'default': {
