@@ -1,2 +1,1 @@
-web: gunicorn project_name.wsgi
-
+web: gunicorn office_empo_proj.wsgi --log-file -
